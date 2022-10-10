@@ -2,8 +2,8 @@ local technology_boiler = table.deepcopy(data.raw["technology"]["automation"])
 local technology_override = {
   name = "electric-boiler",
   prerequisites = {"automation"},
-  icon = "__electricboiler_mogeritz__/graphics/icons/electric-boiler.png",
-  icon_size = 32,
+  icon = "__electricboiler_mogeritz__/graphics/icons/technology/electricboiler.png",
+  icon_size = 128,
   effects = {
     {
       type = "unlock-recipe",
