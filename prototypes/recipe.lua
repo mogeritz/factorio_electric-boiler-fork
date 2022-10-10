@@ -4,7 +4,7 @@ local recipe_override = {
   enabled = "false",
   ingredients = {
     {"boiler", 1},
-    {"electronic-circuit", 1}
+    {"electronic-circuit", 5}
   },
   result = "electric-boiler"
 }

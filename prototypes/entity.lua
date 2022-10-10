@@ -14,8 +14,8 @@ local entityoverride = {
           light_intensity_to_size_coefficient = 1
       }
   },
-  target_temperature = 765,
-  icon = "__electricboiler__/graphics/icons/electric-boiler.png",
+  target_temperature = 165,
+  icon = "__electricboiler_mogeritz__/graphics/icons/electric-boiler.png",
   icon_size = 32,
   fast_replaceable_group = "boiler",
   fire_flicker_enabled = false,
@@ -27,14 +27,14 @@ for k,v in pairs(entityoverride) do
   entityboiler[k]=v
 end
 
-entityboiler.fire_glow.north.filename = "__electricboiler__/graphics/entity/electric-boiler-N-light.png"
-entityboiler.fire_glow.south.filename = "__electricboiler__/graphics/entity/electric-boiler-S-light.png"
-entityboiler.fire_glow.east.filename = "__electricboiler__/graphics/entity/electric-boiler-E-light.png"
-entityboiler.fire_glow.west.filename = "__electricboiler__/graphics/entity/electric-boiler-W-light.png"
-entityboiler.fire_glow.north.hr_version.filename = "__electricboiler__/graphics/entity/hr-electric-boiler-N-light.png"
-entityboiler.fire_glow.south.hr_version.filename = "__electricboiler__/graphics/entity/hr-electric-boiler-S-light.png"
-entityboiler.fire_glow.east.hr_version.filename = "__electricboiler__/graphics/entity/hr-electric-boiler-E-light.png"
-entityboiler.fire_glow.west.hr_version.filename = "__electricboiler__/graphics/entity/hr-electric-boiler-W-light.png"
+entityboiler.fire_glow.north.filename = "__electricboiler_mogeritz__/graphics/entity/electric-boiler-N-light.png"
+entityboiler.fire_glow.south.filename = "__electricboiler_mogeritz__/graphics/entity/electric-boiler-S-light.png"
+entityboiler.fire_glow.east.filename = "__electricboiler_mogeritz__/graphics/entity/electric-boiler-E-light.png"
+entityboiler.fire_glow.west.filename = "__electricboiler_mogeritz__/graphics/entity/electric-boiler-W-light.png"
+entityboiler.fire_glow.north.hr_version.filename = "__electricboiler_mogeritz__/graphics/entity/hr-electric-boiler-N-light.png"
+entityboiler.fire_glow.south.hr_version.filename = "__electricboiler_mogeritz__/graphics/entity/hr-electric-boiler-S-light.png"
+entityboiler.fire_glow.east.hr_version.filename = "__electricboiler_mogeritz__/graphics/entity/hr-electric-boiler-E-light.png"
+entityboiler.fire_glow.west.hr_version.filename = "__electricboiler_mogeritz__/graphics/entity/hr-electric-boiler-W-light.png"
 entityboiler.fire_glow.north.apply_runtime_tint = true
 entityboiler.fire_glow.south.apply_runtime_tint = true
 entityboiler.fire_glow.east.apply_runtime_tint = true
