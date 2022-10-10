@@ -1,9 +1,9 @@
 {
 	"name": "electricboiler_mogeritz",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"title": "Electric Boiler",
 	"author": "Mogeritz",
-	"description": "Fork from Mobius1 to make it work correctly with Bob's Power but without Bob's Electronics. Adds an Electric Boiler building, compatible with bob's mods. Blue glow based on ElAdamo's Gas Boiler.",
+	"description": "Fork from Mobius1 to make it work correctly with bob's Power without unnecessary reliance on bob's electronics. Also improved some graphics. Adds an Electric Boiler building, compatible with bob's mods. Blue glow based on ElAdamo's Gas Boiler.",
 	"factorio_version": "1.1",
-	"dependencies": ["base >= 0.15.1", "? bobpower >= 0.16.4", "? boblibrary >= 0.16.5", "? bobplates >= 0.16.5"]
+	"dependencies": ["base >= 0.15.1", "? bobpower >= 0.16.4", "? boblibrary >= 0.16.5"]
 }
