@@ -38,7 +38,8 @@ if bobmods.power then
         time = 5
       },
       upgrade = true,
-      order = "[electric-boiler]-2"
+      order = "[electric-boiler]-2",
+      localized_description = "electric-boiler-2"
     }
 
     -- itemrecipe
@@ -59,7 +60,7 @@ if bobmods.power then
     local item_override_2 = {
       place_result = "electric-boiler-2",
       name = "electric-boiler-2",
-      order = "[electric-boiler]-2"
+      order = "b[steam-power]-a[electric-boiler-2]"
     }
 
     -- update values
@@ -124,7 +125,8 @@ if bobmods.power then
         time = 5
       },
       upgrade = true,
-      order = "[electric-boiler]-3"
+      order = "[electric-boiler]-3",
+      localized_description = "electric-boiler-3"
     }
 
     -- itemrecipe
@@ -145,7 +147,7 @@ if bobmods.power then
     local item_override_3 = {
       place_result = "electric-boiler-3",
       name = "electric-boiler-3",
-      order = "[electric-boiler]-3"
+      order = "b[steam-power]-a[electric-boiler-3]"
     }
 
     -- update values
@@ -211,7 +213,8 @@ if bobmods.power then
         time = 5
       },
       upgrade = true,
-      order = "[electric-boiler]-4"
+      order = "[electric-boiler]-4",
+      localized_description = "electric-boiler-4"
     }
 
     -- itemrecipe
@@ -232,7 +235,7 @@ if bobmods.power then
     local item_override_4 = {
       place_result = "electric-boiler-4",
       name = "electric-boiler-4",
-      order = "[electric-boiler]-4"
+      order = "b[steam-power]-a[electric-boiler-4]"
     }
 
     -- update values
@@ -299,7 +302,8 @@ if bobmods.power then
         time = 5
       },
       upgrade = true,
-      order = "[electric-boiler]-5"
+      order = "[electric-boiler]-5",
+      localized_description = "electric-boiler-5"
     }
 
     -- itemrecipe
@@ -320,7 +324,7 @@ if bobmods.power then
     local item_override_5 = {
       place_result = "electric-boiler-5",
       name = "electric-boiler-5",
-      order = "[electric-boiler]-5"
+      order = "b[steam-power]-a[electric-boiler-5]"
     }
 
     -- update values

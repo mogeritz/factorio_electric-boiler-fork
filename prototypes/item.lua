@@ -4,7 +4,7 @@ local itemoverride = {
   place_result = "electric-boiler",
   icon_size = 32,
   icon = "__electricboiler_mogeritz__/graphics/icons/electric-boiler.png",
-  order = "b[steam-power]-b[electric-boiler]"
+  order = "b[steam-power]-a[electric-boiler-1]"
 }
 
 for k,v in pairs(itemoverride) do
